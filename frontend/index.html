@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaCart - E-Commerce Store</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="logo" href="#">NovaCart</a>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#orders">Orders</a>
+    <button id="authBtn">Login</button>
+    <button id="cartBtn">Cart (<span id="cartCount">0</span>)</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <span class="tag">FULL STACK E-COMMERCE</span>
+    <h1>Shop smarter.<br><span>Live better.</span></h1>
+    <p>Browse products, view details, manage your cart and place orders.</p>
+    <a class="btn primary" href="#shop">Shop Now</a>
+  </div>
+</section>
+
+<section id="shop" class="section">
+  <div class="section-title">
+    <h2>Featured Products</h2>
+    <input id="search" type="search" placeholder="Search products...">
+  </div>
+  <div id="products" class="product-grid"></div>
+</section>
+
+<section id="orders" class="section hidden">
+  <h2>Your Orders</h2>
+  <div id="ordersList"></div>
+</section>
+
+<div id="cartDrawer" class="drawer">
+  <div class="drawer-header">
+    <h2>Your Cart</h2>
+    <button onclick="closeCart()">×</button>
+  </div>
+  <div id="cartItems"></div>
+  <div class="cart-total">
+    <span>Total</span><strong id="cartTotal">$0.00</strong>
+  </div>
+  <button class="btn primary full" onclick="checkout()">Place Order</button>
+</div>
+<div id="overlay" class="overlay" onclick="closeCart()"></div>
+
+<div id="modal" class="modal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()">×</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<div id="toast"></div>
+<script src="js/app.js"></script>
+</body>
+</html>
