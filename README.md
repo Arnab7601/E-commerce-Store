@@ -1,4 +1,4 @@
-# CodeAlpha Task 1 - Simple E-commerce Store
+# Task 1 - Simple E-commerce Store
 
 ## Structure
 
