@@ -47,4 +47,6 @@ http://localhost:3001/api
 - Order processing
 - Stock management
 - Order history
-## Live-https://e-commerce-store-tau-gold.vercel.app/
+
+  Vercel Live:
+  https://e-commerce-store-tau-gold.vercel.app/
