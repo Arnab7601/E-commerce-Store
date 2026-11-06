@@ -1,0 +1,5 @@
+# The site is a static frontend in frontend/ with no build step.
+# The Express backend in backend/ is not deployed to Netlify.
+[build]
+  publish = "frontend"
+  command = "echo 'No build step: publishing static frontend'"
