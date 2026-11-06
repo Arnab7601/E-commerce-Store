@@ -1,4 +1,4 @@
-# Task 1 - Simple E-commerce Store
+# Simple E-commerce Store
 
 ## Structure
 
