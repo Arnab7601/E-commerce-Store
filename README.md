@@ -3,7 +3,7 @@
 ## Structure
 
 ```text
-CodeAlpha_Task1_Ecommerce/
+Ecommerce/
 ├── frontend/
 │   ├── index.html
 │   ├── css/style.css
@@ -48,5 +48,5 @@ http://localhost:3001/api
 - Stock management
 - Order history
 
-  Vercel Live:
-  https://e-commerce-store-tau-gold.vercel.app/
+  ## Project Live
+  Vercel-https://e-commerce-store-tau-gold.vercel.app/
